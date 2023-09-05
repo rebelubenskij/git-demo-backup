@@ -7,4 +7,3 @@ new city
 new lines
 long stories
 
-some things
