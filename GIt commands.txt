@@ -1,0 +1,50 @@
+pwd 						print working directory
+git config	
+ls 							list
+
+shift+del					ctrl+X
+ctrl+ins					ctrl+C	
+shift+ins  					ctrl+V
+
+git init 					initialisation of directory
+git status 					will show untracked files in working directory
+git add						add file to stage
+git commit					commit to git in local machine
+	-m "some text"			commit with message
+git log						commit history
+git push					syncronize with remote
+git pull					receive from remote
+git gui	&					starts gui  & - allow to use both: bash and gui
+
+gitk &						repo browser
+git checkout 				obsolete undo uncommited changes
+git restore 				undo uncommited changes in files
+git clean 					removes new, unadded to commit files
+git restore --staged  		removes commited file to uncommited
+
+git reset HEAD~* 			undo * last commits to unstage with deleting all indexes
+git reset --soft HEAD~*		undo * last commits to stage
+git reset --mixed HEAD~*	undo * last commits to unstage with deleting all indexes
+git reset --hard HEAD~*		removes * last commits completely
+git comit --amend			rewrite last commit
+
+git revert	*****			undoing pushed commit with commentation in commit with SHA *****
+
+VI commands					
+	INS						insert a text to description
+	ESC						escape from INS
+	:						command mode
+	w						write
+	!						dont change anything
+	q						quit
+
+	wq
+
+TC commands
+	shft+F4					create new text file
+
+.gitignore
+	*.log					ignore .log 
+	!name.log				open one specific name.log even .log is ignored
+	
+	
