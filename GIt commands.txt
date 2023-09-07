@@ -47,4 +47,5 @@ TC commands
 	*.log					ignore .log 
 	!name.log				open one specific name.log even .log is ignored
 	
-	
+git checkout -b "name"		branching commit with name "name"
+git checkout main			change work commit to main
