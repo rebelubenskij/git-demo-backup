@@ -47,4 +47,13 @@ TC commands
 	*.log					ignore .log 
 	!name.log				open one specific name.log even .log is ignored
 	
-	
+git checkout -b "name"		branching commit with name "name"
+git checkout main			change work commit to main
+git branch					swow local branches
+		-r					remote branches	
+		-a 					all branches
+		
+
+git merge --abort			abortation of merge process
+git checkout --Xours --Xtheirs			selection  right version
+git revert *******			undo merge with SHA ******
